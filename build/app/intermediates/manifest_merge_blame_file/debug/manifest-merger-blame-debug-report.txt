@@ -12,8 +12,8 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 15-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\7a8103ecbf0c5fa5aab68f95ee0dbca1\firebase-iid-21.0.1\AndroidManifest.xml:22:5-79
 15-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\7a8103ecbf0c5fa5aab68f95ee0dbca1\firebase-iid-21.0.1\AndroidManifest.xml:22:22-76
@@ -34,30 +34,30 @@
 24         FlutterApplication and put your custom class here.
 25    -->
 26    <application
-26-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:8:5-46:19
+26-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:8:5-46:19
 27        android:name="io.flutter.app.FlutterApplication"
-27-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:9:9-57
+27-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:9:9-57
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 28-->[androidx.core:core:1.1.0] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\33fc2b3b5782a3f2c7faa5df6b0848f0\core-1.1.0\AndroidManifest.xml:24:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:11:9-43
+30-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:11:9-43
 31        android:label="dot_net_push" >
-31-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:10:9-37
+31-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:10:9-37
 32        <activity
-32-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:12:9-40:20
+32-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:12:9-40:20
 33            android:name="com.example.dot_net_push.MainActivity"
-33-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:13:13-41
+33-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:13:13-41
 34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-34-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:16:13-163
+34-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:16:13-163
 35            android:hardwareAccelerated="true"
-35-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:17:13-47
+35-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:17:13-47
 36            android:launchMode="singleTop"
-36-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:14:13-43
+36-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:14:13-43
 37            android:theme="@style/LaunchTheme"
-37-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:15:13-47
+37-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:15:13-47
 38            android:windowSoftInputMode="adjustResize" >
-38-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:18:13-55
+38-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:18:13-55
 39
 40            <!--
 41                 Specifies an Android theme to apply to this Activity as soon as
@@ -66,11 +66,11 @@
 44                 to determine the Window background behind the Flutter UI.
 45            -->
 46            <meta-data
-46-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:23:13-26:17
+46-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:23:13-26:17
 47                android:name="io.flutter.embedding.android.NormalTheme"
-47-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:24:15-70
+47-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:24:15-70
 48                android:resource="@style/NormalTheme" />
-48-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:25:15-52
+48-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:25:15-52
 49            <!--
 50                 Displays an Android View that continues showing the launch screen
 51                 Drawable until Flutter paints its first frame, then this splash
@@ -79,21 +79,21 @@
 54                 Flutter's first frame.
 55            -->
 56            <meta-data
-56-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:32:13-35:17
+56-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:32:13-35:17
 57                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-57-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:33:15-79
+57-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:33:15-79
 58                android:resource="@drawable/launch_background" />
-58-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:34:15-61
+58-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:34:15-61
 59
 60            <intent-filter>
-60-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:36:13-39:29
+60-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:36:13-39:29
 61                <action android:name="android.intent.action.MAIN" />
-61-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:37:17-68
-61-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:37:25-66
+61-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:37:17-68
+61-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:37:25-66
 62
 63                <category android:name="android.intent.category.LAUNCHER" />
-63-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:38:17-76
-63-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:38:27-74
+63-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:38:17-76
+63-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:38:27-74
 64            </intent-filter>
 65        </activity>
 66        <!--
@@ -101,42 +101,42 @@
 68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 69        -->
 70        <meta-data
-70-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:43:9-45:33
+70-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:43:9-45:33
 71            android:name="flutterEmbedding"
-71-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:44:13-44
+71-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:44:13-44
 72            android:value="2" />
-72-->C:\Users\mariana.sanches\Desktop\dot_net_push\android\app\src\main\AndroidManifest.xml:45:13-30
+72-->C:\Users\mariana.sanches\Desktop\dot_net_dart\android\app\src\main\AndroidManifest.xml:45:13-30
 73
 74        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
-74-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-74-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+74-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+74-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
 75            <intent-filter>
-75-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+75-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
 76                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-76-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
-76-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+76-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+76-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
 77            </intent-filter>
 78        </service>
 79        <service
-79-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+79-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
 80            android:name="com.google.firebase.components.ComponentDiscoveryService"
-80-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-89
+80-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-89
 81            android:directBootAware="true"
 81-->[com.google.firebase:firebase-common:19.5.0] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\37b10a4d55b8987d060a53232bd0193d\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 82            android:exported="false" >
 82-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\b652f642142406eab64e7b7362c29b72\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
 83            <meta-data
-83-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+83-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
 84                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
-84-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+84-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
 85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+85-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
 86            <meta-data
-86-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+86-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-87-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+87-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+88-->[:firebase_core] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 89            <meta-data
 89-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\b652f642142406eab64e7b7362c29b72\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
 90                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
@@ -191,10 +191,10 @@
 119            android:exported="false" >
 119-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\mariana.sanches\.gradle\caches\transforms-2\files-2.1\b652f642142406eab64e7b7362c29b72\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
 120            <intent-filter android:priority="-500" >
-120-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+120-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
 121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-121-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
-121-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_push\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+121-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+121-->[:firebase_messaging] C:\Users\mariana.sanches\Desktop\dot_net_dart\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
 122            </intent-filter>
 123        </service>
 124

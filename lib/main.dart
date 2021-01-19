@@ -1,5 +1,9 @@
+import 'dart:io';
+
+import 'package:device_info/device_info.dart';
 import 'package:flutter/material.dart';
 import 'package:dot_net_push/providers/PushProvider.dart';
+import 'package:unique_identifier/unique_identifier.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,6 +21,7 @@ class _MyAppState extends State<MyApp> {
     final pushProvider = new PushProvider();
     pushProvider.initNotfy();
   }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -39,14 +44,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,17 +58,32 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             Text(
-              '$_counter',
+              '',
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: getDevice,
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+
+  getDevice() async {
+    String identifier;
+    if (Platform.isIOS) {
+      final DeviceInfoPlugin deviceInfoPlugin = new DeviceInfoPlugin();
+      var data = await deviceInfoPlugin.iosInfo;
+      identifier = data.identifierForVendor;
+
+      print("IDENTIFICADOR IOS: $identifier");
+    } else {
+      identifier = await UniqueIdentifier.serial;
+      print("IDENTIFICADOR ANDROID: $identifier");
+    }
+    return identifier;
   }
 }
