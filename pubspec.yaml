@@ -1,7 +1,6 @@
 name: dot_net_push
-description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -10,11 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  device_info: ^1.0.0
   firebase_core: ^0.5.0+1
   cupertino_icons: ^1.0.0
-  firebase_messaging: ^7.0.3
   unique_identifier: ^0.0.3
-  device_info: ^1.0.0
+  firebase_messaging: ^7.0.3
+  shared_preferences: ^0.5.12+4
 
 dev_dependencies:
   flutter_test:
